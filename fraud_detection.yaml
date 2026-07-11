@@ -1,0 +1,20 @@
+project:
+  name: Fraud Detection using Machine Learning
+  author: Sreelakshmi A
+dataset:
+  path: data/
+  format: pkl
+model:
+  algorithm: RandomForestClassifier
+  parameters:
+    n_estimators: 100
+    random_state: 42
+training:
+  test_size: 0.2
+  random_state: 42
+requirements:
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
